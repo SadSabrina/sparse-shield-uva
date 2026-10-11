@@ -8,8 +8,11 @@
 Companion repository for the paper
 
 > **Towards Understanding the Robustness of Sparse Autoencoders**
-> Ahson Saiyed, Sabrina Sadiekh, Chirag Agarwal
+> Ahson Saiyed¹, Sabrina Sadiekh², Chirag Agarwal¹
+> ¹University of Virginia ([Aikyam Lab](https://github.com/AikyamLab)), ²Independent Researcher
 > *Findings of the Association for Computational Linguistics: ACL 2026*, pp. 26066–26086
+
+The paper is my collaboration with the [Aikyam Lab](https://github.com/AikyamLab) at the University of Virginia. This repository contains the black-box evaluation and the statistical and feature-level analyses drafts as a part of the work.
 
 It contains the **black-box evaluation pipeline**, the **raw judge verdicts and ASR tables**, the **statistical analysis of white-box transfer**, the **sparse-feature (Jaccard) analysis** and the notebooks that produce the paper figures.
 GCG/BEAST suffix generation, SAE feature extraction and the gradient spectral analysis live in the official repository: [AikyamLab/sparse-jailbreak](https://github.com/AikyamLab/sparse-jailbreak).
