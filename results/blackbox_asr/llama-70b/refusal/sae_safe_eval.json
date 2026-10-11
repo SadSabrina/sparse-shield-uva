@@ -1,0 +1,8 @@
+{
+  "asr": 100.0,
+  "total": 500,
+  "harmful": 500,
+  "safe": 0,
+  "judge": "refusal",
+  "input_file": "meta-llama_Llama-3.3-70B-Instruct_SAE_safe_eval_20260103_165426.jsonl"
+}

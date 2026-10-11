@@ -1,0 +1,8 @@
+{
+  "asr": 38.2,
+  "total": 500,
+  "harmful": 191,
+  "safe": 309,
+  "judge": "harmbench",
+  "input_file": "meta-llama_Llama-3.3-70B-Instruct_SAE_injections_20260103_165428.jsonl"
+}

@@ -1,0 +1,8 @@
+{
+  "asr": 47.199999999999996,
+  "total": 500,
+  "harmful": 236,
+  "safe": 264,
+  "judge": "harmbench",
+  "input_file": "data/sae_responses/gemma-27b/google_gemma-2-27b_baseline_safe_eval_20251206_194858.jsonl"
+}

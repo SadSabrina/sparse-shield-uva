@@ -1,0 +1,8 @@
+{
+  "asr": 45.4,
+  "total": 500,
+  "harmful": 227,
+  "safe": 273,
+  "judge": "wildguard",
+  "input_file": "data/sae_responses/gemma-27b/google_gemma-2-27b_baseline_injections_20251209_112639.jsonl"
+}

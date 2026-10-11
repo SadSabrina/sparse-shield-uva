@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or results, please cite the paper below."
+title: "SparseShield: Towards Understanding the Robustness of Sparse Autoencoders"
+authors:
+  - family-names: Saiyed
+    given-names: Ahson
+  - family-names: Sadiekh
+    given-names: Sabrina
+  - family-names: Agarwal
+    given-names: Chirag
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Towards Understanding the Robustness of Sparse Autoencoders"
+  authors:
+    - family-names: Saiyed
+      given-names: Ahson
+    - family-names: Sadiekh
+      given-names: Sabrina
+    - family-names: Agarwal
+      given-names: Chirag
+  collection-title: "Findings of the Association for Computational Linguistics: ACL 2026"
+  publisher:
+    name: "Association for Computational Linguistics"
+  year: 2026
+  start: 26066
+  end: 26086
+  url: "https://aclanthology.org/2026.findings-acl.1298/"

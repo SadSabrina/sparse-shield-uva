@@ -1,0 +1,537 @@
+{
+  "config": {
+    "top_k": 80,
+    "selection_method": "mean",
+    "num_sources": 12,
+    "active_threshold": 0.0
+  },
+  "active_feature_stats_per_source": {
+    "gemma_27b_base": {
+      "active_mean_per_sample": 78.20183563232422,
+      "active_median_per_sample": 78.0
+    },
+    "gemma_27b_sae_l34": {
+      "active_mean_per_sample": 79.70183563232422,
+      "active_median_per_sample": 78.0
+    },
+    "gemma_2b_base": {
+      "active_mean_per_sample": 80.03211212158203,
+      "active_median_per_sample": 78.0
+    },
+    "gemma_2b_sae_l12": {
+      "active_mean_per_sample": 72.77064514160156,
+      "active_median_per_sample": 71.0
+    },
+    "gemma_9b_base": {
+      "active_mean_per_sample": 80.78899383544922,
+      "active_median_per_sample": 80.0
+    },
+    "gemma_9b_sae_l19": {
+      "active_mean_per_sample": 83.45413208007812,
+      "active_median_per_sample": 83.0
+    },
+    "llama_70b_base": {
+      "active_mean_per_sample": 86.92694091796875,
+      "active_median_per_sample": 86.0
+    },
+    "llama_70b_sae_l50": {
+      "active_mean_per_sample": 89.69265747070312,
+      "active_median_per_sample": 89.0
+    },
+    "llama_8b_base": {
+      "active_mean_per_sample": 83.95509338378906,
+      "active_median_per_sample": 83.0
+    },
+    "llama_8b_sae_l19": {
+      "active_mean_per_sample": 81.72018432617188,
+      "active_median_per_sample": 81.0
+    },
+    "mistral_7b_base": {
+      "active_mean_per_sample": 81.87614440917969,
+      "active_median_per_sample": 78.0
+    },
+    "mistral_7b_sae_l16": {
+      "active_mean_per_sample": 90.0779800415039,
+      "active_median_per_sample": 88.0
+    }
+  },
+  "pairwise_similarities": {
+    "gemma_27b_base_vs_gemma_27b_sae_l34": {
+      "jaccard": 0.6666666666666666,
+      "overlap": 64,
+      "union": 96,
+      "only_in_a": 16,
+      "only_in_b": 16
+    },
+    "gemma_27b_base_vs_gemma_2b_base": {
+      "jaccard": 0.6,
+      "overlap": 60,
+      "union": 100,
+      "only_in_a": 20,
+      "only_in_b": 20
+    },
+    "gemma_27b_base_vs_gemma_2b_sae_l12": {
+      "jaccard": 0.5384615384615384,
+      "overlap": 56,
+      "union": 104,
+      "only_in_a": 24,
+      "only_in_b": 24
+    },
+    "gemma_27b_base_vs_gemma_9b_base": {
+      "jaccard": 0.391304347826087,
+      "overlap": 45,
+      "union": 115,
+      "only_in_a": 35,
+      "only_in_b": 35
+    },
+    "gemma_27b_base_vs_gemma_9b_sae_l19": {
+      "jaccard": 0.45454545454545453,
+      "overlap": 50,
+      "union": 110,
+      "only_in_a": 30,
+      "only_in_b": 30
+    },
+    "gemma_27b_base_vs_llama_70b_base": {
+      "jaccard": 0.25,
+      "overlap": 32,
+      "union": 128,
+      "only_in_a": 48,
+      "only_in_b": 48
+    },
+    "gemma_27b_base_vs_llama_70b_sae_l50": {
+      "jaccard": 0.21212121212121213,
+      "overlap": 28,
+      "union": 132,
+      "only_in_a": 52,
+      "only_in_b": 52
+    },
+    "gemma_27b_base_vs_llama_8b_base": {
+      "jaccard": 0.2698412698412698,
+      "overlap": 34,
+      "union": 126,
+      "only_in_a": 46,
+      "only_in_b": 46
+    },
+    "gemma_27b_base_vs_llama_8b_sae_l19": {
+      "jaccard": 0.3793103448275862,
+      "overlap": 44,
+      "union": 116,
+      "only_in_a": 36,
+      "only_in_b": 36
+    },
+    "gemma_27b_base_vs_mistral_7b_base": {
+      "jaccard": 0.3008130081300813,
+      "overlap": 37,
+      "union": 123,
+      "only_in_a": 43,
+      "only_in_b": 43
+    },
+    "gemma_27b_base_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.3008130081300813,
+      "overlap": 37,
+      "union": 123,
+      "only_in_a": 43,
+      "only_in_b": 43
+    },
+    "gemma_27b_sae_l34_vs_gemma_2b_base": {
+      "jaccard": 0.5841584158415841,
+      "overlap": 59,
+      "union": 101,
+      "only_in_a": 21,
+      "only_in_b": 21
+    },
+    "gemma_27b_sae_l34_vs_gemma_2b_sae_l12": {
+      "jaccard": 0.4953271028037383,
+      "overlap": 53,
+      "union": 107,
+      "only_in_a": 27,
+      "only_in_b": 27
+    },
+    "gemma_27b_sae_l34_vs_gemma_9b_base": {
+      "jaccard": 0.3559322033898305,
+      "overlap": 42,
+      "union": 118,
+      "only_in_a": 38,
+      "only_in_b": 38
+    },
+    "gemma_27b_sae_l34_vs_gemma_9b_sae_l19": {
+      "jaccard": 0.391304347826087,
+      "overlap": 45,
+      "union": 115,
+      "only_in_a": 35,
+      "only_in_b": 35
+    },
+    "gemma_27b_sae_l34_vs_llama_70b_base": {
+      "jaccard": 0.3114754098360656,
+      "overlap": 38,
+      "union": 122,
+      "only_in_a": 42,
+      "only_in_b": 42
+    },
+    "gemma_27b_sae_l34_vs_llama_70b_sae_l50": {
+      "jaccard": 0.25,
+      "overlap": 32,
+      "union": 128,
+      "only_in_a": 48,
+      "only_in_b": 48
+    },
+    "gemma_27b_sae_l34_vs_llama_8b_base": {
+      "jaccard": 0.24031007751937986,
+      "overlap": 31,
+      "union": 129,
+      "only_in_a": 49,
+      "only_in_b": 49
+    },
+    "gemma_27b_sae_l34_vs_llama_8b_sae_l19": {
+      "jaccard": 0.391304347826087,
+      "overlap": 45,
+      "union": 115,
+      "only_in_a": 35,
+      "only_in_b": 35
+    },
+    "gemma_27b_sae_l34_vs_mistral_7b_base": {
+      "jaccard": 0.28,
+      "overlap": 35,
+      "union": 125,
+      "only_in_a": 45,
+      "only_in_b": 45
+    },
+    "gemma_27b_sae_l34_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.32231404958677684,
+      "overlap": 39,
+      "union": 121,
+      "only_in_a": 41,
+      "only_in_b": 41
+    },
+    "gemma_2b_base_vs_gemma_2b_sae_l12": {
+      "jaccard": 0.6494845360824743,
+      "overlap": 63,
+      "union": 97,
+      "only_in_a": 17,
+      "only_in_b": 17
+    },
+    "gemma_2b_base_vs_gemma_9b_base": {
+      "jaccard": 0.3793103448275862,
+      "overlap": 44,
+      "union": 116,
+      "only_in_a": 36,
+      "only_in_b": 36
+    },
+    "gemma_2b_base_vs_gemma_9b_sae_l19": {
+      "jaccard": 0.45454545454545453,
+      "overlap": 50,
+      "union": 110,
+      "only_in_a": 30,
+      "only_in_b": 30
+    },
+    "gemma_2b_base_vs_llama_70b_base": {
+      "jaccard": 0.24031007751937986,
+      "overlap": 31,
+      "union": 129,
+      "only_in_a": 49,
+      "only_in_b": 49
+    },
+    "gemma_2b_base_vs_llama_70b_sae_l50": {
+      "jaccard": 0.20300751879699247,
+      "overlap": 27,
+      "union": 133,
+      "only_in_a": 53,
+      "only_in_b": 53
+    },
+    "gemma_2b_base_vs_llama_8b_base": {
+      "jaccard": 0.23076923076923078,
+      "overlap": 30,
+      "union": 130,
+      "only_in_a": 50,
+      "only_in_b": 50
+    },
+    "gemma_2b_base_vs_llama_8b_sae_l19": {
+      "jaccard": 0.3333333333333333,
+      "overlap": 40,
+      "union": 120,
+      "only_in_a": 40,
+      "only_in_b": 40
+    },
+    "gemma_2b_base_vs_mistral_7b_base": {
+      "jaccard": 0.3008130081300813,
+      "overlap": 37,
+      "union": 123,
+      "only_in_a": 43,
+      "only_in_b": 43
+    },
+    "gemma_2b_base_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.2698412698412698,
+      "overlap": 34,
+      "union": 126,
+      "only_in_a": 46,
+      "only_in_b": 46
+    },
+    "gemma_2b_sae_l12_vs_gemma_9b_base": {
+      "jaccard": 0.2698412698412698,
+      "overlap": 34,
+      "union": 126,
+      "only_in_a": 46,
+      "only_in_b": 46
+    },
+    "gemma_2b_sae_l12_vs_gemma_9b_sae_l19": {
+      "jaccard": 0.415929203539823,
+      "overlap": 47,
+      "union": 113,
+      "only_in_a": 33,
+      "only_in_b": 33
+    },
+    "gemma_2b_sae_l12_vs_llama_70b_base": {
+      "jaccard": 0.22137404580152673,
+      "overlap": 29,
+      "union": 131,
+      "only_in_a": 51,
+      "only_in_b": 51
+    },
+    "gemma_2b_sae_l12_vs_llama_70b_sae_l50": {
+      "jaccard": 0.1678832116788321,
+      "overlap": 23,
+      "union": 137,
+      "only_in_a": 57,
+      "only_in_b": 57
+    },
+    "gemma_2b_sae_l12_vs_llama_8b_base": {
+      "jaccard": 0.1678832116788321,
+      "overlap": 23,
+      "union": 137,
+      "only_in_a": 57,
+      "only_in_b": 57
+    },
+    "gemma_2b_sae_l12_vs_llama_8b_sae_l19": {
+      "jaccard": 0.25984251968503935,
+      "overlap": 33,
+      "union": 127,
+      "only_in_a": 47,
+      "only_in_b": 47
+    },
+    "gemma_2b_sae_l12_vs_mistral_7b_base": {
+      "jaccard": 0.3445378151260504,
+      "overlap": 41,
+      "union": 119,
+      "only_in_a": 39,
+      "only_in_b": 39
+    },
+    "gemma_2b_sae_l12_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.2903225806451613,
+      "overlap": 36,
+      "union": 124,
+      "only_in_a": 44,
+      "only_in_b": 44
+    },
+    "gemma_9b_base_vs_gemma_9b_sae_l19": {
+      "jaccard": 0.36752136752136755,
+      "overlap": 43,
+      "union": 117,
+      "only_in_a": 37,
+      "only_in_b": 37
+    },
+    "gemma_9b_base_vs_llama_70b_base": {
+      "jaccard": 0.20300751879699247,
+      "overlap": 27,
+      "union": 133,
+      "only_in_a": 53,
+      "only_in_b": 53
+    },
+    "gemma_9b_base_vs_llama_70b_sae_l50": {
+      "jaccard": 0.17647058823529413,
+      "overlap": 24,
+      "union": 136,
+      "only_in_a": 56,
+      "only_in_b": 56
+    },
+    "gemma_9b_base_vs_llama_8b_base": {
+      "jaccard": 0.28,
+      "overlap": 35,
+      "union": 125,
+      "only_in_a": 45,
+      "only_in_b": 45
+    },
+    "gemma_9b_base_vs_llama_8b_sae_l19": {
+      "jaccard": 0.32231404958677684,
+      "overlap": 39,
+      "union": 121,
+      "only_in_a": 41,
+      "only_in_b": 41
+    },
+    "gemma_9b_base_vs_mistral_7b_base": {
+      "jaccard": 0.25,
+      "overlap": 32,
+      "union": 128,
+      "only_in_a": 48,
+      "only_in_b": 48
+    },
+    "gemma_9b_base_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.22137404580152673,
+      "overlap": 29,
+      "union": 131,
+      "only_in_a": 51,
+      "only_in_b": 51
+    },
+    "gemma_9b_sae_l19_vs_llama_70b_base": {
+      "jaccard": 0.20300751879699247,
+      "overlap": 27,
+      "union": 133,
+      "only_in_a": 53,
+      "only_in_b": 53
+    },
+    "gemma_9b_sae_l19_vs_llama_70b_sae_l50": {
+      "jaccard": 0.15942028985507245,
+      "overlap": 22,
+      "union": 138,
+      "only_in_a": 58,
+      "only_in_b": 58
+    },
+    "gemma_9b_sae_l19_vs_llama_8b_base": {
+      "jaccard": 0.21212121212121213,
+      "overlap": 28,
+      "union": 132,
+      "only_in_a": 52,
+      "only_in_b": 52
+    },
+    "gemma_9b_sae_l19_vs_llama_8b_sae_l19": {
+      "jaccard": 0.2903225806451613,
+      "overlap": 36,
+      "union": 124,
+      "only_in_a": 44,
+      "only_in_b": 44
+    },
+    "gemma_9b_sae_l19_vs_mistral_7b_base": {
+      "jaccard": 0.36752136752136755,
+      "overlap": 43,
+      "union": 117,
+      "only_in_a": 37,
+      "only_in_b": 37
+    },
+    "gemma_9b_sae_l19_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.3445378151260504,
+      "overlap": 41,
+      "union": 119,
+      "only_in_a": 39,
+      "only_in_b": 39
+    },
+    "llama_70b_base_vs_llama_70b_sae_l50": {
+      "jaccard": 0.6161616161616161,
+      "overlap": 61,
+      "union": 99,
+      "only_in_a": 19,
+      "only_in_b": 19
+    },
+    "llama_70b_base_vs_llama_8b_base": {
+      "jaccard": 0.25,
+      "overlap": 32,
+      "union": 128,
+      "only_in_a": 48,
+      "only_in_b": 48
+    },
+    "llama_70b_base_vs_llama_8b_sae_l19": {
+      "jaccard": 0.3333333333333333,
+      "overlap": 40,
+      "union": 120,
+      "only_in_a": 40,
+      "only_in_b": 40
+    },
+    "llama_70b_base_vs_mistral_7b_base": {
+      "jaccard": 0.1510791366906475,
+      "overlap": 21,
+      "union": 139,
+      "only_in_a": 59,
+      "only_in_b": 59
+    },
+    "llama_70b_base_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.19402985074626866,
+      "overlap": 26,
+      "union": 134,
+      "only_in_a": 54,
+      "only_in_b": 54
+    },
+    "llama_70b_sae_l50_vs_llama_8b_base": {
+      "jaccard": 0.25984251968503935,
+      "overlap": 33,
+      "union": 127,
+      "only_in_a": 47,
+      "only_in_b": 47
+    },
+    "llama_70b_sae_l50_vs_llama_8b_sae_l19": {
+      "jaccard": 0.3008130081300813,
+      "overlap": 37,
+      "union": 123,
+      "only_in_a": 43,
+      "only_in_b": 43
+    },
+    "llama_70b_sae_l50_vs_mistral_7b_base": {
+      "jaccard": 0.1267605633802817,
+      "overlap": 18,
+      "union": 142,
+      "only_in_a": 62,
+      "only_in_b": 62
+    },
+    "llama_70b_sae_l50_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.1510791366906475,
+      "overlap": 21,
+      "union": 139,
+      "only_in_a": 59,
+      "only_in_b": 59
+    },
+    "llama_8b_base_vs_llama_8b_sae_l19": {
+      "jaccard": 0.5384615384615384,
+      "overlap": 56,
+      "union": 104,
+      "only_in_a": 24,
+      "only_in_b": 24
+    },
+    "llama_8b_base_vs_mistral_7b_base": {
+      "jaccard": 0.1267605633802817,
+      "overlap": 18,
+      "union": 142,
+      "only_in_a": 62,
+      "only_in_b": 62
+    },
+    "llama_8b_base_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.1347517730496454,
+      "overlap": 19,
+      "union": 141,
+      "only_in_a": 61,
+      "only_in_b": 61
+    },
+    "llama_8b_sae_l19_vs_mistral_7b_base": {
+      "jaccard": 0.19402985074626866,
+      "overlap": 26,
+      "union": 134,
+      "only_in_a": 54,
+      "only_in_b": 54
+    },
+    "llama_8b_sae_l19_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.21212121212121213,
+      "overlap": 28,
+      "union": 132,
+      "only_in_a": 52,
+      "only_in_b": 52
+    },
+    "mistral_7b_base_vs_mistral_7b_sae_l16": {
+      "jaccard": 0.48148148148148145,
+      "overlap": 52,
+      "union": 108,
+      "only_in_a": 28,
+      "only_in_b": 28
+    }
+  },
+  "global": {
+    "total_unique_features": 290,
+    "common_to_all": 9,
+    "common_features_list": [
+      2612,
+      5301,
+      20666,
+      21032,
+      23647,
+      40307,
+      45128,
+      45457,
+      58187
+    ]
+  }
+}

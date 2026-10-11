@@ -1,0 +1,16 @@
+# Generation and judging (GPU)
+torch>=2.4
+transformers>=4.57
+accelerate>=1.0
+datasets>=4.0
+huggingface_hub>=0.36
+sae-lens>=6.0
+tqdm
+
+# Analysis and notebooks (CPU)
+numpy
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+seaborn>=0.13
+jupyter

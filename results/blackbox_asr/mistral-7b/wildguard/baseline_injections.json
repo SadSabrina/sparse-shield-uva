@@ -1,0 +1,8 @@
+{
+  "asr": 36.8,
+  "total": 500,
+  "harmful": 184,
+  "safe": 316,
+  "judge": "wildguard",
+  "input_file": "data/sae_responses/mistral-8b/mistralai_Mistral-7B-v0.1_baseline_injections_20251206_194004.jsonl"
+}

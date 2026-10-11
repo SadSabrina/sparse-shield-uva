@@ -1,0 +1,11 @@
+source,active_threshold,active_mean_per_sample,active_median_per_sample,top_k,selection_method
+beast_gemma_27b_base,0.0,60.69266128540039,59.0,64,mean
+beast_gemma_27b_sae_l34,0.0,65.03669738769531,64.0,64,mean
+beast_gemma_2b_base,0.0,65.90825653076172,66.0,64,mean
+beast_gemma_2b_sae_l12,0.0,57.56880569458008,56.0,64,mean
+beast_gemma_9b_base,0.0,66.61009216308594,64.0,64,mean
+beast_gemma_9b_sae_l19,0.0,65.77064514160156,65.0,64,mean
+beast_llama_8b_base,0.0,65.6192626953125,64.0,64,mean
+beast_llama_8b_sae,0.0,49.38990783691406,47.0,64,mean
+beast_mistral_7b_base,0.0,78.81651306152344,77.0,64,mean
+beast_mistral_7b_sae,0.0,77.46788787841797,75.0,64,mean

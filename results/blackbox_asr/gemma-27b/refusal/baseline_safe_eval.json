@@ -1,0 +1,8 @@
+{
+  "asr": 99.0,
+  "total": 500,
+  "harmful": 495,
+  "safe": 5,
+  "judge": "refusal",
+  "input_file": "data/sae_responses/gemma-27b/google_gemma-2-27b_baseline_safe_eval_20251206_194858.jsonl"
+}

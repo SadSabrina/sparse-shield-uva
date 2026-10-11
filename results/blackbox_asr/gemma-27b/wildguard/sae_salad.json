@@ -1,0 +1,8 @@
+{
+  "asr": 38.800000000000004,
+  "total": 500,
+  "harmful": 194,
+  "safe": 306,
+  "judge": "wildguard",
+  "input_file": "data/sae_responses/gemma-27b/google_gemma-2-27b_SAE_salad_20251209_112644.jsonl"
+}

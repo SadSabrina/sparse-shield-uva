@@ -1,0 +1,13 @@
+source,active_threshold,active_mean_per_sample,active_median_per_sample,top_k,selection_method
+gemma_27b_base,0.0,144.83486938476562,135.0,144,mean
+gemma_27b_sae_l34,0.0,140.25228881835938,136.0,144,mean
+gemma_2b_base,0.0,146.19725036621094,143.0,144,mean
+gemma_2b_sae_l12,0.0,133.63302612304688,132.0,144,mean
+gemma_9b_base,0.0,180.25228881835938,169.0,144,mean
+gemma_9b_sae_l19,0.0,158.75228881835938,152.0,144,mean
+llama_70b_base,0.0,148.05479431152344,145.0,144,mean
+llama_70b_sae_l50,0.0,150.82110595703125,146.0,144,mean
+llama_8b_base,0.0,150.36227416992188,148.0,144,mean
+llama_8b_sae_l19,0.0,154.2431182861328,150.0,144,mean
+mistral_7b_base,0.0,132.2431182861328,128.0,144,mean
+mistral_7b_sae_l16,0.0,128.5825653076172,128.0,144,mean

@@ -1,0 +1,8 @@
+{
+  "asr": 97.39999999999999,
+  "total": 500,
+  "harmful": 487,
+  "safe": 13,
+  "judge": "refusal",
+  "input_file": "data/sae_responses/mistral-8b/mistralai_Mistral-7B-v0.1_SAE_safe_eval_20251206_194042.jsonl"
+}

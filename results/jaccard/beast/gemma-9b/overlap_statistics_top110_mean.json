@@ -1,0 +1,394 @@
+{
+  "config": {
+    "top_k": 110,
+    "selection_method": "mean",
+    "num_sources": 10,
+    "active_threshold": 0.0
+  },
+  "active_feature_stats_per_source": {
+    "beast_gemma_27b_base": {
+      "active_mean_per_sample": 110.30274963378906,
+      "active_median_per_sample": 109.0
+    },
+    "beast_gemma_27b_sae_l34": {
+      "active_mean_per_sample": 113.81192779541016,
+      "active_median_per_sample": 110.0
+    },
+    "beast_gemma_2b_base": {
+      "active_mean_per_sample": 111.63302612304688,
+      "active_median_per_sample": 108.0
+    },
+    "beast_gemma_2b_sae_l12": {
+      "active_mean_per_sample": 112.14678955078125,
+      "active_median_per_sample": 109.0
+    },
+    "beast_gemma_9b_base": {
+      "active_mean_per_sample": 107.72476959228516,
+      "active_median_per_sample": 106.0
+    },
+    "beast_gemma_9b_sae_l19": {
+      "active_mean_per_sample": 117.83944702148438,
+      "active_median_per_sample": 119.0
+    },
+    "beast_llama_8b_base": {
+      "active_mean_per_sample": 118.1284408569336,
+      "active_median_per_sample": 112.0
+    },
+    "beast_llama_8b_sae": {
+      "active_mean_per_sample": 108.83027648925781,
+      "active_median_per_sample": 107.0
+    },
+    "beast_mistral_7b_base": {
+      "active_mean_per_sample": 122.69265747070312,
+      "active_median_per_sample": 121.0
+    },
+    "beast_mistral_7b_sae": {
+      "active_mean_per_sample": 129.49082946777344,
+      "active_median_per_sample": 130.0
+    }
+  },
+  "pairwise_similarities": {
+    "beast_gemma_27b_base_vs_beast_gemma_27b_sae_l34": {
+      "jaccard": 0.6417910447761194,
+      "overlap": 86,
+      "union": 134,
+      "only_in_a": 24,
+      "only_in_b": 24
+    },
+    "beast_gemma_27b_base_vs_beast_gemma_2b_base": {
+      "jaccard": 0.41025641025641024,
+      "overlap": 64,
+      "union": 156,
+      "only_in_a": 46,
+      "only_in_b": 46
+    },
+    "beast_gemma_27b_base_vs_beast_gemma_2b_sae_l12": {
+      "jaccard": 0.42857142857142855,
+      "overlap": 66,
+      "union": 154,
+      "only_in_a": 44,
+      "only_in_b": 44
+    },
+    "beast_gemma_27b_base_vs_beast_gemma_9b_base": {
+      "jaccard": 0.6417910447761194,
+      "overlap": 86,
+      "union": 134,
+      "only_in_a": 24,
+      "only_in_b": 24
+    },
+    "beast_gemma_27b_base_vs_beast_gemma_9b_sae_l19": {
+      "jaccard": 0.5602836879432624,
+      "overlap": 79,
+      "union": 141,
+      "only_in_a": 31,
+      "only_in_b": 31
+    },
+    "beast_gemma_27b_base_vs_beast_llama_8b_base": {
+      "jaccard": 0.45695364238410596,
+      "overlap": 69,
+      "union": 151,
+      "only_in_a": 41,
+      "only_in_b": 41
+    },
+    "beast_gemma_27b_base_vs_beast_llama_8b_sae": {
+      "jaccard": 0.34146341463414637,
+      "overlap": 56,
+      "union": 164,
+      "only_in_a": 54,
+      "only_in_b": 54
+    },
+    "beast_gemma_27b_base_vs_beast_mistral_7b_base": {
+      "jaccard": 0.27167630057803466,
+      "overlap": 47,
+      "union": 173,
+      "only_in_a": 63,
+      "only_in_b": 63
+    },
+    "beast_gemma_27b_base_vs_beast_mistral_7b_sae": {
+      "jaccard": 0.26436781609195403,
+      "overlap": 46,
+      "union": 174,
+      "only_in_a": 64,
+      "only_in_b": 64
+    },
+    "beast_gemma_27b_sae_l34_vs_beast_gemma_2b_base": {
+      "jaccard": 0.3924050632911392,
+      "overlap": 62,
+      "union": 158,
+      "only_in_a": 48,
+      "only_in_b": 48
+    },
+    "beast_gemma_27b_sae_l34_vs_beast_gemma_2b_sae_l12": {
+      "jaccard": 0.4012738853503185,
+      "overlap": 63,
+      "union": 157,
+      "only_in_a": 47,
+      "only_in_b": 47
+    },
+    "beast_gemma_27b_sae_l34_vs_beast_gemma_9b_base": {
+      "jaccard": 0.6541353383458647,
+      "overlap": 87,
+      "union": 133,
+      "only_in_a": 23,
+      "only_in_b": 23
+    },
+    "beast_gemma_27b_sae_l34_vs_beast_gemma_9b_sae_l19": {
+      "jaccard": 0.4864864864864865,
+      "overlap": 72,
+      "union": 148,
+      "only_in_a": 38,
+      "only_in_b": 38
+    },
+    "beast_gemma_27b_sae_l34_vs_beast_llama_8b_base": {
+      "jaccard": 0.41935483870967744,
+      "overlap": 65,
+      "union": 155,
+      "only_in_a": 45,
+      "only_in_b": 45
+    },
+    "beast_gemma_27b_sae_l34_vs_beast_llama_8b_sae": {
+      "jaccard": 0.34146341463414637,
+      "overlap": 56,
+      "union": 164,
+      "only_in_a": 54,
+      "only_in_b": 54
+    },
+    "beast_gemma_27b_sae_l34_vs_beast_mistral_7b_base": {
+      "jaccard": 0.23595505617977527,
+      "overlap": 42,
+      "union": 178,
+      "only_in_a": 68,
+      "only_in_b": 68
+    },
+    "beast_gemma_27b_sae_l34_vs_beast_mistral_7b_sae": {
+      "jaccard": 0.2571428571428571,
+      "overlap": 45,
+      "union": 175,
+      "only_in_a": 65,
+      "only_in_b": 65
+    },
+    "beast_gemma_2b_base_vs_beast_gemma_2b_sae_l12": {
+      "jaccard": 0.5068493150684932,
+      "overlap": 74,
+      "union": 146,
+      "only_in_a": 36,
+      "only_in_b": 36
+    },
+    "beast_gemma_2b_base_vs_beast_gemma_9b_base": {
+      "jaccard": 0.41025641025641024,
+      "overlap": 64,
+      "union": 156,
+      "only_in_a": 46,
+      "only_in_b": 46
+    },
+    "beast_gemma_2b_base_vs_beast_gemma_9b_sae_l19": {
+      "jaccard": 0.29411764705882354,
+      "overlap": 50,
+      "union": 170,
+      "only_in_a": 60,
+      "only_in_b": 60
+    },
+    "beast_gemma_2b_base_vs_beast_llama_8b_base": {
+      "jaccard": 0.30177514792899407,
+      "overlap": 51,
+      "union": 169,
+      "only_in_a": 59,
+      "only_in_b": 59
+    },
+    "beast_gemma_2b_base_vs_beast_llama_8b_sae": {
+      "jaccard": 0.2571428571428571,
+      "overlap": 45,
+      "union": 175,
+      "only_in_a": 65,
+      "only_in_b": 65
+    },
+    "beast_gemma_2b_base_vs_beast_mistral_7b_base": {
+      "jaccard": 0.3836477987421384,
+      "overlap": 61,
+      "union": 159,
+      "only_in_a": 49,
+      "only_in_b": 49
+    },
+    "beast_gemma_2b_base_vs_beast_mistral_7b_sae": {
+      "jaccard": 0.26436781609195403,
+      "overlap": 46,
+      "union": 174,
+      "only_in_a": 64,
+      "only_in_b": 64
+    },
+    "beast_gemma_2b_sae_l12_vs_beast_gemma_9b_base": {
+      "jaccard": 0.42857142857142855,
+      "overlap": 66,
+      "union": 154,
+      "only_in_a": 44,
+      "only_in_b": 44
+    },
+    "beast_gemma_2b_sae_l12_vs_beast_gemma_9b_sae_l19": {
+      "jaccard": 0.3253012048192771,
+      "overlap": 54,
+      "union": 166,
+      "only_in_a": 56,
+      "only_in_b": 56
+    },
+    "beast_gemma_2b_sae_l12_vs_beast_llama_8b_base": {
+      "jaccard": 0.34146341463414637,
+      "overlap": 56,
+      "union": 164,
+      "only_in_a": 54,
+      "only_in_b": 54
+    },
+    "beast_gemma_2b_sae_l12_vs_beast_llama_8b_sae": {
+      "jaccard": 0.375,
+      "overlap": 60,
+      "union": 160,
+      "only_in_a": 50,
+      "only_in_b": 50
+    },
+    "beast_gemma_2b_sae_l12_vs_beast_mistral_7b_base": {
+      "jaccard": 0.30952380952380953,
+      "overlap": 52,
+      "union": 168,
+      "only_in_a": 58,
+      "only_in_b": 58
+    },
+    "beast_gemma_2b_sae_l12_vs_beast_mistral_7b_sae": {
+      "jaccard": 0.24293785310734464,
+      "overlap": 43,
+      "union": 177,
+      "only_in_a": 67,
+      "only_in_b": 67
+    },
+    "beast_gemma_9b_base_vs_beast_gemma_9b_sae_l19": {
+      "jaccard": 0.4864864864864865,
+      "overlap": 72,
+      "union": 148,
+      "only_in_a": 38,
+      "only_in_b": 38
+    },
+    "beast_gemma_9b_base_vs_beast_llama_8b_base": {
+      "jaccard": 0.43790849673202614,
+      "overlap": 67,
+      "union": 153,
+      "only_in_a": 43,
+      "only_in_b": 43
+    },
+    "beast_gemma_9b_base_vs_beast_llama_8b_sae": {
+      "jaccard": 0.3333333333333333,
+      "overlap": 55,
+      "union": 165,
+      "only_in_a": 55,
+      "only_in_b": 55
+    },
+    "beast_gemma_9b_base_vs_beast_mistral_7b_base": {
+      "jaccard": 0.28654970760233917,
+      "overlap": 49,
+      "union": 171,
+      "only_in_a": 61,
+      "only_in_b": 61
+    },
+    "beast_gemma_9b_base_vs_beast_mistral_7b_sae": {
+      "jaccard": 0.28654970760233917,
+      "overlap": 49,
+      "union": 171,
+      "only_in_a": 61,
+      "only_in_b": 61
+    },
+    "beast_gemma_9b_sae_l19_vs_beast_llama_8b_base": {
+      "jaccard": 0.4473684210526316,
+      "overlap": 68,
+      "union": 152,
+      "only_in_a": 42,
+      "only_in_b": 42
+    },
+    "beast_gemma_9b_sae_l19_vs_beast_llama_8b_sae": {
+      "jaccard": 0.31736526946107785,
+      "overlap": 53,
+      "union": 167,
+      "only_in_a": 57,
+      "only_in_b": 57
+    },
+    "beast_gemma_9b_sae_l19_vs_beast_mistral_7b_base": {
+      "jaccard": 0.2154696132596685,
+      "overlap": 39,
+      "union": 181,
+      "only_in_a": 71,
+      "only_in_b": 71
+    },
+    "beast_gemma_9b_sae_l19_vs_beast_mistral_7b_sae": {
+      "jaccard": 0.25,
+      "overlap": 44,
+      "union": 176,
+      "only_in_a": 66,
+      "only_in_b": 66
+    },
+    "beast_llama_8b_base_vs_beast_llama_8b_sae": {
+      "jaccard": 0.4012738853503185,
+      "overlap": 63,
+      "union": 157,
+      "only_in_a": 47,
+      "only_in_b": 47
+    },
+    "beast_llama_8b_base_vs_beast_mistral_7b_base": {
+      "jaccard": 0.27906976744186046,
+      "overlap": 48,
+      "union": 172,
+      "only_in_a": 62,
+      "only_in_b": 62
+    },
+    "beast_llama_8b_base_vs_beast_mistral_7b_sae": {
+      "jaccard": 0.30952380952380953,
+      "overlap": 52,
+      "union": 168,
+      "only_in_a": 58,
+      "only_in_b": 58
+    },
+    "beast_llama_8b_sae_vs_beast_mistral_7b_base": {
+      "jaccard": 0.17647058823529413,
+      "overlap": 33,
+      "union": 187,
+      "only_in_a": 77,
+      "only_in_b": 77
+    },
+    "beast_llama_8b_sae_vs_beast_mistral_7b_sae": {
+      "jaccard": 0.23595505617977527,
+      "overlap": 42,
+      "union": 178,
+      "only_in_a": 68,
+      "only_in_b": 68
+    },
+    "beast_mistral_7b_base_vs_beast_mistral_7b_sae": {
+      "jaccard": 0.4965986394557823,
+      "overlap": 73,
+      "union": 147,
+      "only_in_a": 37,
+      "only_in_b": 37
+    }
+  },
+  "global": {
+    "total_unique_features": 331,
+    "common_to_all": 21,
+    "common_features_list": [
+      628,
+      1145,
+      1728,
+      2800,
+      4151,
+      5073,
+      5140,
+      7959,
+      7992,
+      8541,
+      9479,
+      12553,
+      12605,
+      12748,
+      12816,
+      13606,
+      13881,
+      14679,
+      15462,
+      15718,
+      16230
+    ]
+  }
+}

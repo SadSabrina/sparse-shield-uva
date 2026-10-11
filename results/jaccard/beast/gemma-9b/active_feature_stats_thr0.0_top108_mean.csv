@@ -1,0 +1,16 @@
+source,active_threshold,active_mean_per_sample,active_median_per_sample,top_k,selection_method
+beast_gemma_27b_base,0.0,110.30274963378906,109.0,108,mean
+beast_gemma_27b_sae_l34,0.0,113.81192779541016,110.0,108,mean
+beast_gemma_2b_base,0.0,111.63302612304688,108.0,108,mean
+beast_gemma_2b_sae_l12,0.0,112.14678955078125,109.0,108,mean
+beast_gemma_9b_base,0.0,107.72476959228516,106.0,108,mean
+beast_gemma_9b_sae_l19,0.0,117.83944702148438,119.0,108,mean
+beast_llama_8b_base,0.0,118.1284408569336,112.0,108,mean
+beast_llama_8b_sae,0.0,108.83027648925781,107.0,108,mean
+beast_mistral_7b_base,0.0,122.69265747070312,121.0,108,mean
+beast_mistral_7b_sae,0.0,129.49082946777344,130.0,108,mean
+random_full_alphanumeric_symbols,0.0,176.17218017578125,93.0,108,mean
+random_mixed_case,0.0,74.28899383544922,73.0,108,mean
+random_text_lowercase,0.0,87.76146697998047,86.0,108,mean
+random_text_numbers,0.0,68.15596008300781,66.0,108,mean
+random_unicode_text,0.0,88.0779800415039,85.0,108,mean

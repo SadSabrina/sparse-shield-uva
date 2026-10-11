@@ -1,0 +1,8 @@
+{
+  "asr": 93.4,
+  "total": 500,
+  "harmful": 467,
+  "safe": 33,
+  "judge": "refusal",
+  "input_file": "data/sae_responses/gemma-2b/google_gemma-2-2b_baseline_injections_20251205_235155_with_emp.jsonl"
+}

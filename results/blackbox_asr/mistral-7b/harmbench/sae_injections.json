@@ -1,0 +1,8 @@
+{
+  "asr": 3.5999999999999996,
+  "total": 500,
+  "harmful": 18,
+  "safe": 482,
+  "judge": "harmbench",
+  "input_file": "data/sae_responses/mistral-8b/mistralai_Mistral-7B-v0.1_SAE_injections_20251206_194042.jsonl"
+}

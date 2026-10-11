@@ -1,0 +1,8 @@
+{
+  "asr": 17.8,
+  "total": 500,
+  "harmful": 89,
+  "safe": 411,
+  "judge": "wildguard",
+  "input_file": "data/sae_responses/llama-8b/cache_models--meta-llama--Meta-Llama-3.1-8B-Instruct_baseline_safe_eval_20251207_224018.jsonl"
+}

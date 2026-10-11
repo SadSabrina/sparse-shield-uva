@@ -1,0 +1,8 @@
+{
+  "asr": 49.2,
+  "total": 500,
+  "harmful": 246,
+  "safe": 254,
+  "judge": "wildguard",
+  "input_file": "meta-llama_Llama-3.3-70B-Instruct_SAE_injections_20260103_165428.jsonl"
+}
